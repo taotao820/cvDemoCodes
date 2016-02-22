@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>我的简历</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/jquery.rater.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        color: #5a5a5a;
+    }
+    
+    .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #ddd;
+        border-right: 1px solid #eee;
+    }
+    
+    .nav-sidebar {
+        margin-right: -21px;
+        margin-bottom: 20px;
+        margin-left: -20px;
+    }
+    
+    .my-skills-div {
+        margin-top: -3.5%;
+        margin-bottom: -1.1%;
+    }
+    
+    .star-position-style {
+        float: right;
+        margin-top: -7.2%;
+        margin-right: 6%;
+    }
+    
+    .skill-label-style {
+        margin-left: 6%;
+    }
+    
+    .my-label-style {
+        display: block;
+        height: 45px;
+        text-align: center;
+        line-height: 38px;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        opacity: 0.85;
+        border-radius: 30px;
+    }
+    
+    .my-wall-div {
+        margin-top: 4.05%;
+        margin-bottom: 3%;
+    }
+    
+    .my-list-group-div {
+        margin-top: 3%!important;
+        margin-bottom: 3%!important;
+    }
+    </style>
+</head>
+
+<body>
+    <!--下面是顶部导航栏的代码-->
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">我的简历</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav ul-tabs">
+                    <li class="active dropdown li-tabs">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">基本信息</a></li>
+                            <li><a href="#">自我介绍</a></li>
+                            <li><a href="#">教育水平</a></li>
+                        </ul>
+                    </li>
+                    <li class="li-tabs">
+                        <a href="#">关于工作</a>
+                    </li>
+                    <li class="li-tabs"><a href="javascript:void(0)">我的项目经验</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--自适应布局-->
+    <div class="container-fluid">
+        <div class="row">
+            <!--左侧导航栏-->
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar">
+                    <li class="active"><a href="javascript:void(0)">关于我</a></li>
+                </ul>
+                <ul class="nav nav-sidebar">
+                    <li><a href="javascript:void(0)">关于工作</a></li>
+                </ul>
+                <ul class="nav nav-sidebar">
+                    <li><a href="javascript:void(0)">关于项目</a></li>
+                </ul>
+            </div>
+            <!--右侧管理控制台-->
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <div class="tabs-body">
+                    <div class="resume-tab" style="display: block">
+                        <h1 class="page-header">胥蕙涛的简历</h1>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!--panel面板，里面放置一些控件，下同-->
+                                <div class="panel panel-primary">
+                                    <!--panel面板的标题，下同-->
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">基本信息</h3>
+                                    </div>
+                                    <!--panel面板的内容，下同-->
+                                    <div class="panel-body">
+                                        <div class="alert alert-info" role="alert">
+                                            <strong>出生年月地：</strong> 1991.8.20&nbsp;&nbsp;&nbsp;江苏常州
+                                        </div>
+                                        <div class="alert alert-info" role="alert">
+                                            <strong>学历：</strong>本科
+                                        </div>
+                                        <div class="alert alert-info" role="alert">
+                                            <strong>自我介绍：</strong>我是个在工作中有态度，在生活有情趣，朝着大神的目标不断努力的程序援
+                                        </div>
+                                        <div class="alert alert-info" role="alert">
+                                            <strong>联系方式：</strong>邮箱：925302995@qq.com；电话：15601591163
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">技能灯</h3>
+                                    </div>
+                                    <div class="panel-body my-skills-div">
+                                        <h3><span class="label label-warning skill-label-style">JavaScript</span></h3>
+                                        <div class="star-js star-position-style"></div>
+                                        <h3><span class="label label-warning skill-label-style">jQuery</span></h3>
+                                        <div class="star-jquery star-position-style"></div>
+                                        <h3><span class="label label-warning skill-label-style">css</span></h3>
+                                        <div class="star-css star-position-style"></div>
+                                        <h3><span class="label label-warning skill-label-style">bootstrap</span></h3>
+                                        <div class="star-bs star-position-style"></div>
+                                        <h3><span class="label label-warning skill-label-style">Ajax</span></h3>
+                                        <div class="star-ajax star-position-style"></div>
+                                        <h3><span class="label label-warning skill-label-style">Java</span></h3>
+                                        <div class="star-java star-position-style"></div>
+                                        <h3><span class="label label-warning skill-label-style">Oracle</span></h3>
+                                        <div class="star-oracle star-position-style"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">求职及教育</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="col-md-12">
+                                            <div class="label-container">
+                                                <div class="col-md-12 my-wall-div"><span class="label label-default my-label-style">工作地点：上海||南京||苏州</span></div>
+                                                <div class="col-md-6 my-wall-div"><span class="label label-primary my-label-style">岗位：前端||J2EE</span></div>
+                                                <div class="col-md-6 my-wall-div"><span class="label label-success my-label-style">期望月薪：7.5－8.5k</span></div>
+                                                <div class="col-md-4 my-wall-div"><span class="label label-info my-label-style">南京工程学院</span></div>
+                                                <div class="col-md-4 my-wall-div"><span class="label label-danger my-label-style">信管专业</span></div>
+                                                <div class="col-md-4 my-wall-div"><span class="label label-warning my-label-style">英语六级</span></div>
+                                            </div>
+                                        </div>
+                                        <!-- <p><a class="btn btn-primary" href="#" role="button">查看详细&raquo;</a></p> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="panel panel-primary">
+                                    <div class="panel-heading">
+                                        <h3 class="panel-title">工作经验</h3>
+                                    </div>
+                                    <div class="panel-body">
+                                        <div class="list-group my-list-group-div">
+                                            <a href="#" class="list-group-item">
+                                                <span class="badge">外包</span>
+                                                <h4 class="list-group-item-heading">2015年9月-至今&nbsp;&nbsp;&nbsp;南京中兴软创&nbsp;&nbsp;&nbsp;软工（外协）</h4>
+                                                <p class="list-group-item-text">城市安全应急系统的开发，负责开发应急功能的相关模块，重构页面，编写脚本，实现交互以及实现后台增删改查功能，兼代码国家化及翻译测试用例</p>
+                                            </a>
+                                            <a href="#" class="list-group-item">
+                                                <span class="badge">实习</span>
+                                                <h4 class="list-group-item-heading">2015年4月-8月&nbsp;&nbsp;&nbsp;鼎捷江苏分公司&nbsp;&nbsp;&nbsp;ERP软工</h4>
+                                                <p class="list-group-item-text">在BPM事业部实习，参与鼎捷ERP系统的顾问和开发培训，以及OA系统的表单的二次开发，主要负责绘制表单以及编写实现业务逻辑的脚本。</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resume-tab" style="display: none">
+                        <h1 class="page-header">工作</h1>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;简单说，跟有经验的web开发人员学会了浏览器以及Eclipse的调试方法之后，学习速度提升很多，并且愿意去学习新的东西，写出一个漂亮的页面有成就感，就想自己以后是不是能写出更多交互更好的界面，不管是PC还是移动端的应用。甚至是往产品和设计的方向上靠，不想一直当写增删改查的页面仔。</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;关于加班，我觉得现在这个阶段自己技术不够成熟，那加班就是表明一种态度，愿意去学习的态度。</p>
+                    </div>
+                    <div class="resume-tab" style="display: none">
+                        <h1 class="page-header">项目</h1>
+                        <h3>某应急系统子模块开发，从前端页面到功能，页面部分：css框架用到bootStrap，该简历首页也是用的此框架；样式编译工具是nodejs的grunt，编译LESS，写了LESS再也不想写CSS了，方便太多；前端脚本：backbone，实现前端的MVC，规范化代码并且去除代码黏合性，使每个开发人员写的代码成为一个独立的view。后端：方法的接口以及实现该接口的方法，主要是在DAO层中写实现功能的sql。大致是这样的一个流程。</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.rater.js"></script>
+    <script type="text/javascript" src="js/myJs.js"></script>
+</body>
+
+</html>
