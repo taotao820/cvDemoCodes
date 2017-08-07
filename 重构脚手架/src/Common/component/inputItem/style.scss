@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+.inputItem{
+	font-size: 14px;
+	float: left;
+    .input{
+        height: 28px;
+        line-height: 28px;
+        border: 1px solid #d7d7d7;
+        border-radius: 6px;
+        padding-left: 8px;
+        color:#666;
+        float: left;
+    }
+    .span{
+    	padding-right: 5px;
+        float: left;
+        text-align: right;
+        line-height: 28px;
+    }
+}
+.wrapNor{
+    width: 240px;
+}
+.wrapLar{
+    width: 480px;
+}
+.wrapBig{
+    width: 360px;
+}
+.inputNor{
+    width: 160px;
+}
+.inputLar{
+    width: 400px;
+}
+.inputBig{
+    width: 220px;
+}
+.spanNor{
+    width: 80px;
+}
+.spanLar{
+    width: 80px;
+}
+.spanBig{
+    width: 140px;
+}
+.clear{
+    clear: both;
+}

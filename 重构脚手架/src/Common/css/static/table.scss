@@ -1,0 +1,53 @@
+#idMgrTable {
+    .ant-table-small {
+        border: 1px solid #FFF;
+        border-radius: 6px;
+    }
+    .ant-table-tbody>tr>td {
+        border-bottom: 1px solid #fff;
+    }
+    a {
+        margin-right: 8px;
+        color: #69a3b7;
+        text-decoration: underline;
+    }
+    a:hover {
+        color: #69a3b7;
+    }
+    .ant-table-scroll table {
+        width: auto;
+        background-color: #FFFDDD;
+        min-width: 100%;
+    }
+}
+
+#registerList {
+    .ant-table-small .ant-table-header>table,
+    .ant-table-small .ant-table-body>table {
+        border: 0;
+        padding: 0px;
+    }
+    .ant-table-small .ant-table-thead>tr>th {
+        padding: 10px 8px;
+        background: #acd8e5;
+    }
+    .ant-table-thead>tr>th {
+        text-align: center;
+    }
+    .ant-table table {
+        text-align: center;
+    }
+    .ant-table-small {
+        border-radius: 0px;
+    }
+}
+
+#registerPage {
+    .ant-pagination-item-active {
+        background-color: #62b1d0;
+        border-color: #62b1d0;
+    }
+    .ant-pagination-item:hover {
+        border-color: #62b1d0;
+    }
+}

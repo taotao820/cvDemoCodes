@@ -1,0 +1,102 @@
+#regisForm {
+    .ant-col-sm-8 {
+        position: relative;
+        min-height: 1px;
+        padding-left: 0px;
+        padding-right: 0px;
+        float: left;
+        width: 33.33333%;
+    }
+    .ant-form-item {
+        font-size: 12px;
+        margin-bottom: 12px;
+        color: #666;
+        display: inline-block;
+        width: 33.33333%;
+    }
+    .ant-form-item>.ant-form-item,
+    .ant-form-item :not(.ant-form)>.ant-form-item {
+        margin-bottom: -18px;
+    }
+    .ant-radio-wrapper {
+        display: inline;
+        margin-right: 0px;
+    }
+    span.ant-radio+* {
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .ant-radio-group {
+        margin-left: 4px;
+    }
+    .ant-input:focus {
+        border-color: #e6f0f4;
+        box-shadow: 0 0 0 2px rgba(45, 183, 245, 0.1);
+    }
+    .ant-input:hover {
+        border-color: #e6f0f4;
+    }
+    .ant-select-lg .ant-select-selection--single {
+        height: 28px;
+    }
+     ::selection {
+        background: #69a3b7;
+        color: #fff;
+    }
+    .ant-input {
+        width: 140px;
+    }
+    .ant-btn-primary,
+    .ant-btn-primary:hover,
+    .ant-btn-primary:focus {
+        color: #ffffff;
+        background-color: #87c8e0;
+        border-color: #87c8e0;
+    }
+    .ant-btn-primary.disabled {
+        color: #ccc;
+        background-color: #f7f7f7;
+        border-color: #d9d9d9;
+    }
+    .ant-form-item-with-help {
+        margin-bottom: -2px;
+    }
+    .ant-form-explain {
+        margin-top: -1px;
+    }
+    .ant-select-lg .ant-select-selection--single .ant-select-selection__rendered {
+        height: 26px;
+    }
+    .ant-input-group>[class*="col-"] {
+        padding-right: 0px;
+    }
+    .ant-select-selection__placeholder,
+    .ant-select-search__field__placeholder {
+        color: #E9E9E9;
+    }
+    .ant-input-lg {
+        height: 28px;
+    }
+}
+
+#idForm {
+    .ant-form-item {
+        font-size: 12px;
+        margin-bottom: 40px;
+        color: #666;
+    }
+    textarea.ant-input {
+        vertical-align: bottom;
+        max-width: 140%;
+    }
+}
+
+#registerDialogTab {
+    .ant-tabs-nav .ant-tabs-tab-active .ant-tabs-tab-inner,
+    .ant-tabs-nav .ant-tabs-tab-inner:hover {
+        color: #69a3b7;
+    }
+    .ant-tabs.ant-tabs-card>.ant-tabs-bar .ant-tabs-tab-active {
+        font-size: 16px;
+    }
+}

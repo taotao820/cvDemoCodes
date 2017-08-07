@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+.wrap{
+	font-size: 14px;
+	float: left;
+    height: 28px;
+    .item{
+        height: 28px;
+        line-height: 28px;
+        float: left;
+    }
+    .span{
+    	padding-right: 5px;
+        float: left;
+        text-align: right;
+        line-height: 28px;
+    }
+}
+.clear{
+    clear: both;
+}
+.wrapNor{
+    width: 240px;
+}
+.wrapLar{
+    width: 480px;
+}
+.wrapSma{
+    width: 160px;
+}
+.itemNor{
+    width: 160px;
+}
+.itemLar{
+    width: 400px;
+}
+.itemSma{
+    width: 100px;
+}
+.spanNor{
+    width: 80px;
+}
+.spanLar{
+    width: 80px;
+}
+.spanSma{
+    width: 60px;
+}

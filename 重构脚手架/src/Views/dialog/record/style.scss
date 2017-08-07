@@ -1,0 +1,120 @@
+        @charset "UTF-8";
+        @import '../../../Common/css/common.scss';
+        $dialogHeadColor:#d9e9ff;
+        $borderColor:#9ab5c0;
+        $tabFontColor:#6aa3b7;
+        $tabBgColor:#ddeaf0;
+        $tabBorderColor:#94b0bc;
+        $mouseHand:pointer;
+        $dialogBottonColor:#87c8e0;
+        $emptyDivheight:150px;
+        .record {
+            background: $dialogHeadColor;
+            height: 664px;
+            width: 800px;
+            overflow: auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin: -300px auto auto -400px;
+            z-index: 1001;
+            .dialog-bd {
+                width: 96%;
+                position: relative;
+                top: 7%;
+                left: 2%;
+                height: 91%;
+                background: #fff;
+                .form {
+                    position: absolute;
+                    width: 96%;
+                    left: 2%;
+                    top: 11%;
+                    border-bottom: 1px solid #d9d9d9;
+                    border-left: 1px solid #d9d9d9;
+                    border-right: 1px solid #d9d9d9;
+                    /* border-top-color: transparent; */
+                    height: 74%;
+                    padding: 16px 20px 0px 0px;
+                    height: 86%;
+                    .idMgr {
+                        margin-left: 2%;
+                        width: 96%;
+                        height: 88%;
+                        .boundary {
+                            position: absolute;
+                            top: 0%;
+                            left: 54%;
+                            width: 1px;
+                            background-color: #d9d9d9;
+                            height: 100%;
+                        }
+                        .idList {
+                            width: 54%;
+                            height: 100%;
+                            float: left;
+                            margin-top: 1%;
+                            .bgColor {
+                                background-color: #fff;
+                            }
+                        }
+                        .idBtnDiv {
+                            position: absolute;
+                            right: 3%;
+                            bottom: 22%;
+                            .bottonCls {
+                                background-color: $dialogBottonColor;
+                                border-color: $dialogBottonColor;
+                                margin-right: 20px;
+                            }
+                        }
+                    }
+                    .idForm {
+                        margin-left: 20px;
+                        float: right;
+                        width: 43%;
+                        margin-top: 2%;
+                    }
+                }
+            }
+        }
+        
+        .card-container {
+            width: 96%;
+            height: 80%;
+            position: absolute;
+            left: 2%;
+            top: 5%;
+        }
+        
+        .mb-10 {
+            margin-bottom: 10px;
+        }
+        
+        .empty {
+            width: auto;
+            height: $emptyDivheight;
+        }
+        
+        .footer-botton {
+            position: absolute;
+            bottom: 2%;
+            left: 24%;
+            .botton-cls {
+                background-color: $dialogBottonColor;
+                border-color: $dialogBottonColor;
+                margin-right: 20px;
+            }
+            .botton-gray-cls {
+                background-color: #DDDDDD;
+                border-color: #DDDDDD;
+                margin-right: 20px;
+            }
+        }
+        
+        .btn-card {
+            float: right;
+            margin-top: -7%;
+            background-color: $dialogBottonColor;
+            border-color: $dialogBottonColor;
+        }

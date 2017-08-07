@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import '../../css/common.scss';
+$dialogHeadColor:#f3f5f7;
+$borderColor:#9ab5c0;
+$tabFontColor:#6aa3b7;
+$tableFontColor:#353d4a;
+$tabBgColor:#ddeaf0;
+$tabBorderColor:#94b0bc;
+$mouseHand:pointer;
+.record {
+    background: $dialogHeadColor;
+    height: 200px;
+    width: 550px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px auto auto -275px;
+    z-index: 1001;
+    .dialog-bd {
+        width: 96%;
+        position: relative;
+        top: 10%;
+        left: 2%;
+        height: 75%;
+        background: #fff;
+        .top {
+            height: 105px;
+            padding: 0px 15px;
+            .div {
+                width: 200px;
+                position: relative;
+                left: 50%;
+                margin-left: -100px;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+
+.top>div {
+    margin: 25px 0;
+}
+
+.clear {
+    clear: both;
+}

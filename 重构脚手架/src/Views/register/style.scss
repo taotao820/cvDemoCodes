@@ -1,0 +1,125 @@
+@charset "UTF-8";
+@import '../../Common/css/mixins.scss';
+.register {
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 10px;
+    &-left {
+        width: 51%;
+        height: 100%;
+        border: 1px solid #f3f5f7;
+        float: left;
+        position: relative;
+        &-top {
+            width: 100%;
+            border: 1px solid #f3f5f7;
+            .timeWrap {
+                /*display: flex;
+			    justify-content: space-between;
+			    flex-wrap: wrap;*/
+            }
+        }
+        &-content {
+            width: 100%;
+            height: 80%;
+            margin-top: 15px;
+            border: 1px solid #f3f5f7;
+        }
+        &-slide {
+            position: absolute;
+            width: 34px;
+            height: 118px;
+            display: block;
+            background-color: #87c8e0;
+            border-radius: 3px;
+            top: 20%;
+            .span-cls {
+                font-size: 14px;
+                color: white;
+                padding: 15px 0 0 10px;
+                display: inline-block;
+            }
+        }
+    }
+    &-right {
+        width: 48%;
+        height: 100%;
+        border: 1px solid #f3f5f7;
+        float: left;
+        margin-left: 1%;
+        padding: 0 0 15px 0;
+        .formOpe {
+            position: relative;
+        }
+    }
+}
+
+.hide {
+    display: none;
+}
+
+.selectedCard {
+    float: left;
+    width: 33%;
+    margin: 6px 0;
+}
+
+.formOpe>div {
+    border-top: 1px dashed #d7d7d7;
+    border-bottom: 1px dashed #d7d7d7;
+    padding-top: 10px;
+    margin-bottom: 1px;
+    position: relative;
+    /*display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;*/
+}
+
+.formOpe>div:first-child {
+    border-top: 0;
+}
+
+.formOpe>div:last-child {
+    border-bottom: 0;
+}
+
+.formOpe>div>div {
+    margin-bottom: 8px;
+}
+
+#clear {
+    margin-bottom: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.container {
+    width: 58%;
+    min-width: 750px;
+    height: 500px;
+    left: 0%;
+    position: absolute;
+    z-index: 999;
+    border: 1px solid #d7d7d7;
+    top: 12%;
+    background: #f3f5f7;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.close {
+    position: relative;
+    left: 97%;
+    width: 4%;
+    height: 100%;
+    cursor: pointer;
+    .img-cls {
+        position: absolute;
+        top: 48%;
+        right: 44%;
+    }
+}

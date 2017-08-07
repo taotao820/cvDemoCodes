@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.date{
+    width: 240px;
+    height: 28px;
+    float: left;
+    &-span{
+    	float: left;
+    	text-align: right;
+    	min-width: 80px;
+    	max-width: 100px;
+    	line-height: 28px;
+    	padding-right: 5px;
+    }
+    .dateWrap{
+    	float: right;
+    	width: 160px;
+    }
+}
+.clear{
+    clear: both;
+}

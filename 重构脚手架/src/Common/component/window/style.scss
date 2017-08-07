@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@import '../../css/common.scss';
+$dialogHeadColor:#f3f5f7;
+$borderColor:#9ab5c0;
+$tabFontColor:#6aa3b7;
+$tabBgColor:#ddeaf0;
+$tabBorderColor:#94b0bc;
+$mouseHand:pointer;
+.record {
+    background: $dialogHeadColor;
+    height: 450px;
+    width: 550px;
+    overflow: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -300px auto auto -275px;
+    z-index: 1001;
+    .dialog-bd {
+        width: 96%;
+        position: relative;
+        top: 9%;
+        left: 2%;
+        height: 87%;
+        background: #fff;
+        &-content {
+            border: 1px solid #9ab5c0;
+            width: 98%;
+            height: 98%;
+            position: relative;
+            left: 1%;
+            top: 1%;
+            .tabs {
+                z-index: 100;
+                width: 650px;
+                position: relative;
+                text-align: left;
+            }
+            .tabs li {
+                float: left;
+                display: block;
+            }
+            .tabs input[type="radio"] {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            .tabs label {
+                color: $tabFontColor;
+                border: 1px solid $tabBorderColor;
+                display: block;
+                padding: 14px 21px;
+                border-radius: 2px 2px 0 0;
+                font-weight: 700;
+                text-transform: uppercase;
+                background: $tabBgColor;
+                cursor: pointer;
+                position: relative;
+                top: 8px;
+                left: 15px;
+                -webkit-transition: all 0.2s ease-in-out;
+                -moz-transition: all 0.2s ease-in-out;
+                transition: all 0.2s ease-in-out;
+            }
+            .tabs label.active {
+                background: #fff;
+                font-size: 16px;
+                border-bottom: 1px solid #fff;
+            }
+            .form {
+                position: absolute;
+                border: 1px solid #9ab5c0;
+                width: 96%;
+                height: 75%;
+                border-radius: 3%;
+                border-top-right-radius: 0.5em;
+                border-bottom-right-radius: 0.5em;
+                border-bottom-left-radius: 0.5em;
+                top: 15%;
+                left: 2%;
+            }
+        }
+    }
+}
+.clear {
+    clear: both;
+}
+.patInfo{
+    width: 100%;
+    height: 130px;
+}
+.patInfo > div, .chargeInfo>div{
+    margin: 10px 0;
+}
+.chargeInfo{
+    width: 100%;
+    height: 200px;
+}
+.btnWrap{
+    width: 100%;
+    height: 50px;
+    .div {
+        margin: 0 auto;
+        width: 300px;
+    }
+}
+.btnWrap1{
+    width: 100%;
+    height: 50px;
+    .div {
+        margin: 0 auto;
+        width: 200px;
+    }
+}

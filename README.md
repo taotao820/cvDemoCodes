@@ -1,5 +1,4 @@
-# myWorkDisplay
+# 简历代码展示
 I want to apply for the front-end development positions,most of the following code is what I use the time to complete the work.
--The resume is my resume,I show it in the form of a web page.
--The project code is a fragment of my project.Because it involves confidentiality, so just put a section.
-Third wheel...
+-1、兼容ie8的react全家桶脚手架.
+-2、老系统业务代码重构 兼容ie8 实例代码为表单

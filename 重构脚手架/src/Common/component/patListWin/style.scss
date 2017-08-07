@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import '../../css/common.scss';
+$dialogHeadColor:#f3f5f7;
+$borderColor:#9ab5c0;
+$tabFontColor:#6aa3b7;
+$tableFontColor:#353d4a;
+$tabBgColor:#ddeaf0;
+$tabBorderColor:#94b0bc;
+$mouseHand:pointer;
+.record {
+    background: $dialogHeadColor;
+    height: 565px;
+    width: 900px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -300px auto auto -450px;
+    z-index: 1001;
+    .dialog-bd {
+        width: 96%;
+        position: relative;
+        top: 7%;
+        left: 2%;
+        height: 87%;
+        background: #fff;
+        .patSearchSpan {
+            padding: 5px;
+            font-size: 14px;
+            float: left;
+            width: 80px;
+            height: 30px;
+            margin: 0 10px;
+            text-align: center;
+            border: 0;
+            border-radius: 4px;
+            background-color: #87c8e0;
+            color: #fff;
+            img {
+                margin-bottom: -3px;
+            }
+            span {
+                margin-left: 5px;
+            }
+        }
+        .top {
+            padding: 0 40px;
+            height: 105px;
+            .div {
+                width: 260px;
+                float: left;
+                padding-left: 50px;
+            }
+        }
+    }
+}
+
+.top>div {
+    margin-top: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+.register-list {
+    width: 100%;
+    position: relative;
+    height: 400px;
+    background-color: white;
+    span {
+        font-size: 12px;
+        color: $tableFontColor;
+        font-weight: 500;
+    }
+    .list-navi {
+        position: absolute;
+        top: 3%;
+        left: 2%;
+        width: 100%;
+    }
+    .list {
+        /*position: absolute;*/
+        width: 100%;
+    }
+    .wrap {
+        float: left;
+        position: relative;
+        left: 50%;
+        margin-top: 15px;
+        .pagination {
+            position: relative;
+            right: 45%;
+            top: 80%;
+            height: 28px;
+        }
+    }
+}

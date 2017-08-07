@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import '../../css/common.scss';
+.pagetool {
+    color: #a5a5a5;
+    font-size: 14px;
+    span {
+        div {
+            display: inline-block;
+            position: relative;
+            top: -5px;
+        }
+        img {
+            margin-top: 4px;
+        }
+    }
+    .icon {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 8px 10px;
+        cursor: pointer;
+        display: inline-block;
+        height: 26px;
+        vertical-align: top;
+        width: 26px;
+    }
+    .totalSpan {
+        position: relative;
+        top: -5px;
+        right: 10px;
+    }
+    .page-no {
+        border-radius: 2px;
+        cursor: pointer;
+        display: inline-block;
+        height: 28px;
+        text-align: center;
+        vertical-align: top;
+        width: 24px;
+        padding: 6px;
+        margin-left: 5px;
+        margin-top: 0px;
+        &.active {
+            background-color: #60b3ce;
+            color: #fff;
+            &:hover {
+                color: #fff;
+            }
+        }
+        &:hover {
+            color: #60b3ce;
+            text-decoration: underline;
+        }
+    }
+    .jump {
+        margin: 0 10px 0 15px;
+        width: 180px;
+    }
+    .page-index {
+        border: 1px solid #60b3ce;
+        margin: 0 5px;
+        text-align: center;
+        width: 35px;
+        height: 24px;
+    }
+}

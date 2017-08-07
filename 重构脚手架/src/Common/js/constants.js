@@ -1,0 +1,87 @@
+export const CHECK_DATE = "CHECK_DATE";
+export const LOAD_DATE = "LOAD_DATE";
+
+export const SHOW_EDITFILE = "SHOW_EDITFILE";
+export const HIDE_EDITEFILE = "HIDE_EDITEFILE";
+
+export const SHOW_COVER = "SHOW_COVER";
+export const HIDE_COVER = "HIDE_COVER";
+
+export const FILTER_REGCODELIST = "FILTER_REGCODELIST";
+export const SET_FILTER = "SET_FILTER";
+export const CLEAR_FILTER = "CLEAR_FILTER";
+export const LOAD_REGCODELIST = "LOAD_REGCODELIST";
+
+export const EDITE_PATINFO = "EDITE_PATINFO";
+//查询挂号列表信息
+export const LOAD_REGLIST = "LOAD_REGLIST";
+export const SHOW_TOP = "SHOW_TOP";
+export const HIDE_TOP = "HIDE_TOP";
+
+export const UPDATE_INVOICE = "UPDATE_INVOICE";
+
+export const UPDATE_CARDLIST = "UPDATE_CARDLIST";
+export const CLEAR_CARDLIST = "CLEAR_CARDLIST";
+export const UPDATE_REGLIST = "UPDATE_REGLIST";
+export const ADD_CARD = "ADD_CARD";
+
+export const EDIT_USER = "EDIT_USER";
+
+export const SHOW_CHARGE = "SHOW_CHARGE";
+export const HIDE_CHARGE = "HIDE_CHARGE";
+//新增病人信息
+export const ADD_REGISTER_PATIENT_INFO = "ADD_REGISTER_PATIENT_INFO";
+//新增标识管理
+export const ADD_REGISTER_ID = "ADD_REGISTER_PATIENTINFO";
+//编辑标识管理
+export const EDIT_REGISTER_ID = "EDIT_REGISTER_ID";
+//删除标识管理
+export const DELETE_REGISTER_ID = "DELETE_REGISTER_ID";
+
+export const LOAD_TYPE = "LOAD_TYPE";
+export const SET_TYPE = "SET_TYPE";
+
+export const UPDATE_CHARGE = "UPDATE_CHARGE";
+export const UPDATE_ADD_CHARGE = "UPDATE_ADD_CHARGE";
+export const UPDATE_DISCOUNT = "UPDATE_DISCOUNT";
+export const UPDATE_CHARGE_TYPE = "UPDATE_CHARGE_TYPE";
+
+//清空用户输入
+export const CLEAR_INPUT_VALUE = "CLEAR_INPUT_VALUE";
+
+export const EDITE_CHARGE = "EDITE_CHARGE";
+
+export const LOAD_IDMGR_INFO = "LOAD_IDMGR_INFO";
+
+export const CLEAR_FORM_INPUT_SUCCESS = "CLEAR_FORM_INPUT_SUCCESS";
+
+export const CLOSE_REGITER_DIALOG = "CLOSE_REGITER_DIALOG";
+
+export const CLEAR_FORM_INPUT_FAIL = "CLEAR_FORM_INPUT_FAIL";
+
+export const EDIT_TABLE_ITEM = "EDIT_TABLE_ITEM";
+
+export const HANDLE_TABLE_ITEM = "HANDLE_TABLE_ITEM";
+
+export const EDIT_TABLE_ITEM_DONE = "EDIT_TABLE_ITEM_DONE";
+
+export const LOAD_IDMGR_OPTIONS = "LOAD_IDMGR_OPTIONS";
+
+export const UPDATE_IDMGR_INFO = "UPDATE_IDMGR_INFO";
+//用于表格编辑取消操作 保存输入前的数据
+
+export const STORE_OLD_DATA = "STORE_OLD_DATA";
+
+export const READ_CARD_PATIENT = "READ_CARD_PATIENT";
+
+export const STORE_FORM_VALUES = "STORE_FORM_VALUES";
+
+export const SHOW_FORM_VALUES = "SHOW_FORM_VALUES";
+
+export const STORE_PATINFO = "STORE_PATINFO";
+
+export const ADD_IDS_FAILURE = "ADD_IDS_FAILURE";
+
+export const OPTION_DEFAULT_VALUE = "OPTION_DEFAULT_VALUE";
+
+export const OPTION_SELECT_VALUE = "OPTION_SELECT_VALUE";

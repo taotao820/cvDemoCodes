@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import '../../css/common.scss';
+.ai-datagrid {
+    table {
+        border-collapse: collapse;
+    }
+    span {
+        color: #666;
+        padding: 0px;
+    }
+    position: absolute;
+    height: 94%;
+    width: 94%;
+    top: 2.5%;
+    left: 2.5%;
+    background-color: white;
+    tr {
+        width: 100%;
+    }
+    th {
+        position: relative;
+        display: table-cell;
+        padding: 0 0 0 10px;
+        text-align: center;
+        font-weight: normal;
+        line-height: 40px;
+        color: #3a3a3a;
+        background: #acd7e5;
+        border-top: 1px solid #d7d7d7;
+    }
+    td {
+        position: relative;
+        display: table-cell;
+        padding: 0 0 0 10px;
+        text-align: center;
+        line-height: 40px;
+    }
+    .ellipsis {
+        display: block;
+    }
+    .dr-bd {
+        position: relative;
+        width: 100%;
+        bottom: 0px;
+        overflow-y: hidden;
+        table {
+            width: 100%;
+            tr {
+                width: 100%;
+                border-top: 1px solid #d7d7d7;
+                &:last-child {
+                    border-bottom: 1px solid #d7d7d7;
+                }
+                &:hover {
+                    background: #f3f6fc;
+                    border-bottom: 1px solid #dce6f2;
+                    border-top: 1px solid #dce6f2;
+                    +tr {
+                        border-top: 0;
+                        &.active {
+                            border-top: 1px solid #aacff9;
+                        }
+                    }
+                }
+                &.active {
+                    background: #dbe7fd;
+                    border-bottom: 1px solid #aacff9;
+                    border-top: 1px solid #aacff9;
+                    &:last-child {
+                        border-bottom: 1px solid #aacff9;
+                    }
+                }
+            }
+        }
+    }
+    .dr-ft {
+        background-color: white;
+        bottom: 0;
+    }
+    &.page {
+        .dr-bd {
+            bottom: 45px;
+        }
+        .dr-ft {
+            display: block;
+        }
+    }
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+}

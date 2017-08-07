@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+.btn{
+	font-size: 14px;
+	float: left;
+    width: 80px;
+    height: 30px;
+    margin: 0 10px;
+    text-align: center;
+    border: 0;
+    border-radius: 4px;
+    .span{
+        line-height: 30px;
+        color: white;
+        margin: 0 5px;
+    }
+    img{
+        vertical-align: middle;
+        margin: 0 5px;
+    }
+}
+.bgColor{
+    background-color: #87c8e0;
+}
+.clear{
+    clear: both;
+}
